@@ -384,7 +384,7 @@ def make_mel_spectrogram_df(directory):
 
 
 # Using the above function to create a dataframe with all of the flattened mel spectrograms and genre labels
-df = make_mel_spectrogram_df('../fma_data')
+#df = make_mel_spectrogram_df('../fma_data')
 
 
 # #### Export
@@ -392,7 +392,7 @@ df = make_mel_spectrogram_df('../fma_data')
 # In[ ]:
 
 
-df.to_csv('../fma_data/genre_mel_specs.csv', index=False)
+#df.to_csv('../fma_data/genre_mel_specs.csv', index=False)
 
 
 # ## Function to Read and Extract Numeric Features from Audio Files
